@@ -29,7 +29,7 @@ public class CadastroController {
     }
 
     @GetMapping("/annotation/{flag}")
-    @FeatureToggle("hedge")
+    @FeatureToggle("growthbook")
     public ResponseEntity<String> annotation(@PathVariable String flag) {
 
         if (featureFlag.isEnabled(flag)) {

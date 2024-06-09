@@ -13,7 +13,7 @@ import sdk.infra.FeatureToggle;
 
 @RestController
 @RequestMapping("/cadastros")
-public class CadastroController {
+public class Controller {
 
 
     @Autowired
